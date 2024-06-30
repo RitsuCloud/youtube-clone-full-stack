@@ -2,7 +2,7 @@ import express from "express";
 import ffmpeg from "fluent-ffmpeg";  // this is a CLI (COMMAND LINE INTERFACE) tool 
 
 const app = express();
-app.use(express.json);
+app.use(express.json());
 
 // app.get("/", (req, res) => {
 //     res.send("Hello World!");
