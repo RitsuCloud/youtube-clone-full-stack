@@ -1,7 +1,6 @@
 import express from "express";
 import { convertVideo, deleteProcessedVideo, deleteRawVideo, downloadRawVideo, setupDirectories, uploadProcessedVideo } from "./storage";
 
-
 // call set up to make sure directories exist;
 setupDirectories();
 
@@ -14,7 +13,7 @@ app.use(express.json());
 
 // This is just basically query after http://localhost:3000/.....
 // below is an example
-// app.get("/cool", (req, res) =>{
+// app.get("/cool", (req, res) =>{  
 //     res.send("Cool World!!!");
 // });
 
