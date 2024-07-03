@@ -24,7 +24,7 @@ const auth = getAuth(app);
  * Signs the user in with a Google popup.
  * @returns A promise that resolves with the user's credentials
  */
-export function singInWithGoogle() {
+export function signInWithGoogle() {
     const provider = new GoogleAuthProvider();
     return signInWithPopup(auth, provider);
 }
