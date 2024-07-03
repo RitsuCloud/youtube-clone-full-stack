@@ -46,3 +46,4 @@ export function onAuthStateChangedHelper(callback: (user: User | null) => void) 
 }
 
 
+// just empty string
